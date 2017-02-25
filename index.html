@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>My Lit Keyboard</title>
-  <link rel="stylesheet" href="styles.css"></link>
+  <link rel="stylesheet" href="css/styles.css"></link>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -14,68 +14,68 @@
         <textarea id="ta" autofocus></textarea>
       </div>
       <div id="first-row">
-        <span id="`">`</span>
-        <span id="1">1</span>
-        <span id="2">2</span>
-        <span id="3">3</span>
-        <span id="4">4</span>
-        <span id="5">5</span>
-        <span id="6">6</span>
-        <span id="7">7</span>
-        <span id="8">8</span>
-        <span id="9">9</span>
-        <span id="0">0</span>
-        <span id="-">-</span>
-        <span id="=">=</span>
-        <span id="backspace">delete</span>
+        <button id="`" class="key"><span>`</span></button>
+        <button id="1" class="key"><span>1</span></button>
+        <button id="2" class="key"><span>2</span></button>
+        <button id="3" class="key"><span>3</span></button>
+        <button id="4" class="key"><span>4</span></button>
+        <button id="5" class="key"><span>5</span></button>
+        <button id="6" class="key"><span>6</span></button>
+        <button id="7" class="key"><span>7</span></button>
+        <button id="8" class="key"><span>8</span></button>
+        <button id="9" class="key"><span>9</span></button>
+        <button id="0" class="key"><span>0</span></button>
+        <button id="-" class="key"><span> - </span></button>
+        <button id="=" class="key"><span>=</span></button>
+        <button id="backspace" class="key"><span>delete</span></button>
       </div>
       <div id="second-row">
-        <span id="tab">tab</span>
-        <span id="q">q</span>
-        <span id="w">w</span>
-        <span id="e">e</span>
-        <span id="r">r</span>
-        <span id="t">t</span>
-        <span id="y">y</span>
-        <span id="u">u</span>
-        <span id="i">i</span>
-        <span id="o">o</span>
-        <span id="p">p</span>
-        <span id="[">[</span>
-        <span id="]">]</span>
-        <span id="\">\</span>
+        <button id="tab" class="key"><span>tab</span></button>
+        <button id="q" class="key"><span>q</span></button>
+        <button id="w" class="key"><span>w</span></button>
+        <button id="e" class="key"><span>e</span></button>
+        <button id="r" class="key"><span>r</span></button>
+        <button id="t" class="key"><span>t</span></button>
+        <button id="y" class="key"><span>y</span></button>
+        <button id="u" class="key"><span>u</span></button>
+        <button id="i" class="key"><span>i</span></button>
+        <button id="o" class="key"><span>o</span></button>
+        <button id="p" class="key"><span>p</span></button>
+        <button id="[" class="key"><span>[</span></button>
+        <button id="]" class="key"><span>]</span></button>
+        <button id="\" class="key"><span>\</span></button>
       </div>
       <div id="third-row">
-        <span id="capslock">caps</span>
-        <span id="a">a</span>
-        <span id="s">s</span>
-        <span id="d">d</span>
-        <span id="f">f</span>
-        <span id="g">g</span>
-        <span id="h">h</span>
-        <span id="j">j</span>
-        <span id="k">k</span>
-        <span id="l">l</span>
-        <span id=";">;</span>
-        <span id="'">'</span>
-        <span id="enter">return</span>
+        <button id="capslock" class="key"><span>caps</span></button>
+        <button id="a" class="key"><span>a</span></button>
+        <button id="s" class="key"><span>s</span></button>
+        <button id="d" class="key"><span>d</span></button>
+        <button id="f" class="key"><span>f</span></button>
+        <button id="g" class="key"><span>g</span></button>
+        <button id="h" class="key"><span>h</span></button>
+        <button id="j" class="key"><span>j</span></button>
+        <button id="k" class="key"><span>k</span></button>
+        <button id="l" class="key"><span>l</span></button>
+        <button id=";" class="key"><span>;</span></button>
+        <button id="'" class="key"><span>'</span></button>
+        <button id="enter" class="key"><span>return</span></button>
       </div>
       <div id="fourth-row">
-        <span id="shiftl">shift</span>
-        <span id="z">z</span>
-        <span id="x">x</span>
-        <span id="c">c</span>
-        <span id="v">v</span>
-        <span id="b">b</span>
-        <span id="n">n</span>
-        <span id="m">m</span>
-        <span id=","><</span>
-        <span id=".">></span>
-        <span id="/">/</span>
-        <span id="shiftr">shift</span>
+        <button id="shiftl" class="key"><span>shift</span></button>
+        <button id="z" class="key"><span>z</span></button>
+        <button id="x" class="key"><span>x</span></button>
+        <button id="c" class="key"><span>c</span></button>
+        <button id="v" class="key"><span>v</span></button>
+        <button id="b" class="key"><span>b</span></button>
+        <button id="n" class="key"><span>n</span></button>
+        <button id="m" class="key"><span>m</span></button>
+        <button id="," class="key"><span><</span></button>
+        <button id="." class="key"><span>></span></button>
+        <button id="/" class="key"><span>/</span></button>
+        <button id="shiftr" class="key"><span>shift</span></button>
       </div>
     </div>
   </div>
-  <script type="text/javascript" src="app.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

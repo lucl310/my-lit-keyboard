@@ -1,0 +1,47 @@
+body{
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+/*div{
+	border-style: solid;
+	border-radius: 2px;
+}*/
+button{
+	/*border-style: solid;
+	border-radius: 5px;*/
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 20px;
+}
+button:active{
+	background-color: red;
+}
+div{
+	padding-bottom: 15px;
+}
+#first-row{
+	font-size: 15px;
+}
+#tab{
+/*	padding-left: 10px;*/
+	padding-right: 10px;
+}
+#backspace{
+	padding-left: 10px;
+}
+#enter{
+	padding-left: 20px; 
+}
+#capslock{
+	padding-right: 10px;
+}
+#shiftl{
+	padding-right: 20px;
+}
+#shiftr{
+	padding-left: 20px;
+}
+.active{
+	background-color: red;
+}
