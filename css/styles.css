@@ -7,6 +7,12 @@ body{
 	border-style: solid;
 	border-radius: 2px;
 }*/
+.keydown{
+
+}
+.key{
+	background-color: none;
+}
 button{
 	/*border-style: solid;
 	border-radius: 5px;*/
