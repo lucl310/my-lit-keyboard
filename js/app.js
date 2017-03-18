@@ -5,7 +5,7 @@ document.body.addEventListener('keyup', unflash)
 
 function type(e) {
 	console.log(e.key)
-	document.getElementById(e.key).style.backgroundColor = "red";
+	document.getElementById(e.key).style.backgroundColor = "red"; 
 	document.getElementById('music').pause = false
 	// 
 // 	if (mouse == down) {document.getElementById("ta").innerHTML = "the mouse is down"
