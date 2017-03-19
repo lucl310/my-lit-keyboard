@@ -9,7 +9,10 @@ function type(e) {
 	document.getElementById(e.key).style.backgroundColor = "red";
 	document.getElementById(e.space).style.backgroundColor = "red";
 
-	document.getElementById(e.key).style.backgroundColor = "red"; 
+	document.getElementById(e.key).style.backgroundColor = "red";
+
+	var key = e.key
+
 
 	// 
 // 	if (mouse == down) {document.getElementById("ta").innerHTML = "the mouse is down"
@@ -19,4 +22,3 @@ function type(e) {
 function unflash(e) {
 	document.getElementById(e.key).style.backgroundColor = "";
 }
-
